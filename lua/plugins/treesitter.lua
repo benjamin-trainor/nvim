@@ -9,11 +9,17 @@ return {
             "git_rebase",
             "gitignore",
             "gitattributes",
+
+            -- GO Lang
+            "go",
+            "gomod",
+            "gowork",
+            "gosum",
         },
     },
     config = function()
         highlight = {
-          enable = true
+            enable = true,
         }
-    end
+    end,
 }

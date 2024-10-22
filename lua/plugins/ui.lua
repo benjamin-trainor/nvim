@@ -1,5 +1,8 @@
 return {
-    -- {{{ lualine.nvim
+    -- {{{  nvim-notify
+    -- {{{  bufferline.nvim
+    -- {{{  lualine.nvim
+    -- djhkdjhdfkjhf
     {
         "nvim-lualine/lualine.nvim",
         cmd = {},
@@ -11,7 +14,6 @@ return {
                 opts.options = {
                     icons_enabled = true,
                     theme = "auto",
-                    -- theme = "seoul256",
                     component_separators = { left = "", right = "" },
                     section_separators = { left = "", right = "" },
                     disabled_filetypes = {
@@ -48,6 +50,7 @@ return {
                 }
 
                 opts.tabline = {}
+
                 opts.winbar = {}
                 opts.inactive_winbar = {}
                 opts.extentions = {}
@@ -58,6 +61,21 @@ return {
         end,
         dependencies = { "nvim-tree/nvim-web-devicons", "MunifTanjim/nui.nvim" },
     },
+    -- {{{  indent-backliane.nvim
+    -- {{{  noice.nvim
+    -- {{{  mini.icons
+    -- {{{  nui.nvim
+    --    {
+    --        -- name of plugin,
+    --        cmd = {},
+    --        event = {},
+    --        ft = {},
+    --        keys = {},
+    --        opts = {},
+    --        dependencies = {},
+    --    },
+    --
+    -- {{{  dashboard.nvim
     --    {
     --        -- name of plugin,
     --        cmd = {},

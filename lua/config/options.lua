@@ -28,7 +28,7 @@ vim.opt.expandtab = true -- expand tab to spaces
 
 vim.opt.smartindent = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
