@@ -27,6 +27,12 @@ return {
 
 					client.server_capabilities.diagnostics = false
 				end,
+				tsserver_plugins = {
+					-- for TypeScript v4.9+
+					"@styled/typescript-styled-plugin",
+					-- or for older TypeScript versions
+					-- "typescript-styled-plugin",
+				},
 			})
 		end,
 	},
